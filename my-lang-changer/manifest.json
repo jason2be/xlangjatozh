@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "My Lang Changer",
+  "version": "1.0",
+  "description": "Changes all lang=\"ja\" attributes to lang=\"zh\" on Twitter pages.",
+  "author": "Bard",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "https://*.twitter.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.twitter.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icons/icon.png"
+  }
+}
