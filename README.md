@@ -1,6 +1,12 @@
 项目名称：my-lang-changer
 
-项目描述：这是一个简单易用的 Chrome 扩展程序，可帮助您在 Twitter 网页上将所有 lang="ja" 属性更改为 lang="zh"。
+项目描述：
+
+这是一个简单易用的 Chrome 扩展程序，可帮助您在 Twitter 网页上将所有 lang="ja" 属性更改为 lang="zh"。避免出现非预期的日文字体显示样式的问题。
+
+
+![Slice 1](https://github.com/jason2be/xlangjatozh/assets/2057451/b1517dba-42c4-4c34-9461-afbd09575cc7)
+
 
 作者：
 
